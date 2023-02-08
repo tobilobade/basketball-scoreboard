@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/88/Game_3_of_the_2006_NBA_Finals.jpg");
+    background-size: cover;
+}
+
+p{
+    padding-top:15px 
+}
+
+h3{
+   font-size: 40px; 
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background:#1B244A;
+    padding: 25px;
+    margin: 20px auto;
+    width:500px;
+}
+
+.scoreboard{
+    width:155px;
+    background: black;
+    height:120px;
+    margin-top:-60px;
+    margin-bottom:10px;
+    color:red;
+    text-align: center;
+    font-size:90px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;  
+}
+
+button{
+    border: 2px solid #9AABD8;
+     border-radius: 5px;
+    background: none;
+    color:#9AABD8;
+    padding:9px;
+    margin:5px 12px 0 0;
+    cursor:pointer;
+    font-family: 'Cursed Timer ULiL', sans-serif;  
+}
+
+.reset{
+    border: 3px solid yellowgreen;
+    background:black;
+    font-weight:bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+
